@@ -1,3 +1,4 @@
 [workspace]
 members = ["cli_demo", "hanzi_lookup"]
 exclude = ["mmah_json_convert"]
+

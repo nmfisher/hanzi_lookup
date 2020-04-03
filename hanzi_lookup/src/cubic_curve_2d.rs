@@ -93,7 +93,9 @@ impl CubicCurve2D {
             if i == 0 { d = solutions.0; }
             else if i == 1 { d = solutions.1; }
             else if i == 2 { d = solutions.2; }
-            else { unreachable!(); }
+            else { 
+                unreachable!(); 
+            }
             if d >= -0.0000001 && d <= 1.0000001 {
                 if d >= 0.0 && d <= 1.0 { return d; }
                 if d < 0.0 { return 0.0; }

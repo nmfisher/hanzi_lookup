@@ -46,7 +46,7 @@ impl Default for MatcherParams {
         MatcherParams {
             MAX_CHARACTER_STROKE_COUNT: 48,
             MAX_CHARACTER_SUB_STROKE_COUNT: 64,
-            DEFAULT_LOOSENESS: 0.15,
+            DEFAULT_LOOSENESS: 0.25,
             AVG_SUBSTROKE_LENGTH: 0.33,
             SKIP_PENALTY_MULTIPLIER: 1.75,
             CORRECT_NUM_STROKES_BONUS: 0.1,
