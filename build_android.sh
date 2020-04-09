@@ -7,9 +7,4 @@ cp .target/armv7-linux-androideabi/release/libhanzi_lookup.so ~/projects/chinese
 cp .target/x86_64-linux-android/release/libhanzi_lookup.so ~/projects/chinese_character_recognition/android/src/main/jniLibs/x86_64/
 cp .target/i686-linux-android/release/libhanzi_lookup.so ~/projects/chinese_character_recognition/android/src/main/jniLibs/x86/
 
-cargo build aarch64-apple-ios --release
-cargo build armv7-apple-ios --release 
-cargo build armv7s-apple-ios --release
-cargo build x86_64-apple-ios --release
-cargo build i386-apple-ios --release
 
